@@ -1026,6 +1026,11 @@ transition: opacity .3s; */
   scale: 1;
 }
 /* style modern  */
+@media only screen and (max-width :700px) {
+  .modern svg {
+    max-width: 340px;
+  }
+}
 .modern {
   padding-bottom: 180px;
   min-height: 100vh;
